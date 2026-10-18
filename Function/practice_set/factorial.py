@@ -1,3 +1,5 @@
+# Write a Python program to display factorial of a given number
+
 def factorial(num):
     fac = 1
 

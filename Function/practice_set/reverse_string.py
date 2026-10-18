@@ -1,7 +1,7 @@
-def reverse(text):
+def reverse(text : str) -> str:
     return text[::-1]
 
-def reversestring(text):
+def reversestring(text : str) -> str:
     rev = ""
     for ch in text:
         rev = ch + rev
@@ -11,8 +11,9 @@ def reversestring(text):
 def main():
     print("Program to reverse a given string")
     text = input("Enter a string: ")
-    # res = reverse(text)
-    res = reversestring(text)
-    print(res)
+    res1 = reverse(text)
+    res2 = reversestring(text)
+    print(res1)
+    print(res2)
 
 main()

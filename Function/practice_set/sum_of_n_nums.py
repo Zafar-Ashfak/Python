@@ -1,6 +1,6 @@
 # Write a function to calculate the sum of first n natural number
 
-def sum_of_n_nums(n):
+def sum_of_n_nums(n : int) -> int:
     s = 0
     for i in range(1, n + 1):
         s += i

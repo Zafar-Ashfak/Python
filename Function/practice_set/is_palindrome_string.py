@@ -1,4 +1,6 @@
-def is_palindrome(text):
+# Write a Python program to check if a given string is palindrome or not
+
+def is_palindrome(text : str) -> bool:
     lp = 0
     rp = len(text) - 1
 
@@ -15,7 +17,7 @@ def is_palindrome(text):
 def main():
     print("Program to check a string is palindrome")
     text = input("Enter a string: ")
-    res = is_palindrome(text)
+    res = is_palindrome(text.lower())
     if res:
         print(f"'{text}' is a palindrome string")
     else:

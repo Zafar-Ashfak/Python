@@ -1,4 +1,6 @@
-def isprime(num):
+# Write a Python program to check if a given number is prime or not
+
+def isprime(num : int) -> bool:
     if num < 2:
         return False
 

@@ -1,5 +1,3 @@
-# Write a function to count characters in a string
-
 def count_chars(text):
     return len(text)
 

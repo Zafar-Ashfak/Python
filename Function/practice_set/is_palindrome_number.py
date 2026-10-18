@@ -1,9 +1,11 @@
-def is_palindrome(num):
+# Write a Python program to check if a given number is palindrome or not
+
+def is_palindrome(num : int) -> int:
     rev = 0
 
     while num > 0:
         rem = num % 10
-        rev = (rev * 10) + rem;
+        rev = (rev * 10) + rem
         num //= 10
 
     return rev

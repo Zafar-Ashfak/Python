@@ -1,8 +1,10 @@
-def count(text):
+# Write a Python program to count and display vowels and consonants in a given string
+
+def count(text : str):
     text = text.lower()
 
     vowels = 0
-    consonants = 0;
+    consonants = 0
 
     for ch in text:
         if ch in 'aeiou':

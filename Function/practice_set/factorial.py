@@ -1,6 +1,6 @@
 # Write a Python program to display factorial of a given number
 
-def factorial(num):
+def factorial(num : int) -> int:
     fac = 1
 
     for i in range(1, num + 1):

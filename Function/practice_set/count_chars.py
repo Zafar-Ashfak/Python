@@ -1,4 +1,4 @@
-def count_chars(text):
+def count_chars(text : str) -> int:
     return len(text)
 
 def main():

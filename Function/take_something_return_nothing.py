@@ -1,7 +1,7 @@
 # Write a function that takes parameters but doesn't return any value.
 
 # Function definition
-def division(num1, num2):
+def division(num1 : int, num2 : int):
     res = num1 / num2
     print(f"{num1} / {num2} = {res}")
 

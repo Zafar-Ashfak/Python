@@ -1,5 +1,3 @@
-
-# set store unique value only
 dresses = { dress for dress in ["dress1", "dress2", "dress3", "dress4", "dress2", "dress3"] }
 
 print(dresses)

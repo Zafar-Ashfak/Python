@@ -1,5 +1,3 @@
-# Write a Python program to create a list Comprehensions
-
 def multiplication_table(n):
 
     # *********** Traditional Way ****************

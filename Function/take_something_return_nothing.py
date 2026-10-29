@@ -1,6 +1,6 @@
 # Write a Python function that takes parameters but does not return any value
 
-def sub(num1, num2):
+def sub(num1 : int, num2 : int):
     res = num1 - num2
     print(f"{num1} - {num2} = {res}")
 

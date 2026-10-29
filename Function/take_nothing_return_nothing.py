@@ -1,13 +1,15 @@
-# Write a function that neither takes any parameters nor returns any value.
+# Write a Python function that takes no parameters and does not return any value
 
-# Function definition
-def addition():
+def add():
     num1 = int(input("Enter the first number: "))
     num2 = int(input("Enter the second number: "))
-    print(f"{num1} + {num2} = {num1 + num2}")
+    res = num1 + num2
 
-def main(): #  main function definition
-    addition() # function call
+    print(f"{num1} + {num2} = {res}")
 
+def main():
+    add()
 
-main()  # main function call
+if __name__== "__main__":
+    main()
+

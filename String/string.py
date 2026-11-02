@@ -1,7 +1,7 @@
-text = "    the power           of your subconscious mind   "
+text = "    the power            of your subconscious mind   "
 print(text, type(text))
 
-# STRING METHODS
+# ***************** STRING METHODS *****************
 # 1. upper() -> Convert to uppercase
 upr = text.upper()
 print(upr)
@@ -112,7 +112,7 @@ print(len(text))
 
 # 25. reverse() -> reverse a string
 my_str = "Python"
-
+print(my_str[::-1])
 
 
 

@@ -68,7 +68,7 @@ print(ew)
 spl = text.split()
 print(spl)
 
-# 15. join() -> oin elements of an iterable into a string
+# 15. join() -> join elements of an iterable into a string
 words = ["Python", "Java", "C++", "JavaScript", "Ruby", "SQL"]
 print(" ".join(words))
 print(", ".join(words))

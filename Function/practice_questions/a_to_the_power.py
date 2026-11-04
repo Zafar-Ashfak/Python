@@ -1,4 +1,4 @@
-# Write a method to calculate the 'a to the power n'.
+# Write a python method to calculate the 'a' to the power 'n'.
 
 def a_to_the_pow(base : int, power : int) -> int:
     i = 0

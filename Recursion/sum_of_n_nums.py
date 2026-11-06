@@ -7,7 +7,7 @@ def get_sum(n : int) -> int:
     return n + get_sum(n - 1)
 
 def main():
-    print("Program to calculate sum of n numbers from 1 to n using recursion")
+    print("Program to calculate sum of n numbers from 1 to n")
     n = int(input("Enter a natural number: "))
     print(f"Sum of numbers from 1 to {n} is: {get_sum(n)}")
 

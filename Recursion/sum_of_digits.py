@@ -1,6 +1,6 @@
 # write a program to find the sum of digits of a number using recursion.
 
-def sum_of_digits(num : int, total_sum : int = 0) -> int:
+def sum_of_digits(num : int, total_sum : int) -> int:
     if num == 0:
         return total_sum
 
@@ -11,7 +11,7 @@ def sum_of_digits(num : int, total_sum : int = 0) -> int:
 def main():
     print("Program to find the sum of digits of a number")
     num = int(input("Enter a number: "))
-    res = sum_of_digits(num)
+    res = sum_of_digits(num, 0)
     print(f"Sum of digits in number {num} is: {res}")
 
 if __name__ == '__main__':

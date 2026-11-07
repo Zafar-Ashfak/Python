@@ -1,6 +1,6 @@
 # Write a Python program to count the digits of a number using recursion
 
-def count_digits(num : int, count : int) -> int:
+def count_digits(num : int, count : int = 0) -> int:
     # Base Case
     if num == 0:
         return count
@@ -12,7 +12,7 @@ def count_digits(num : int, count : int) -> int:
 def main():
     print("Program to count the digits of a number")
     num = int(input("Enter a number: "))
-    res = count_digits(num, 0)
+    res = count_digits(num)
     print(f"Total digits of the number {num} is: {res}")
 
 if __name__ == '__main__':

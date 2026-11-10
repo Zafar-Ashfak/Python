@@ -1,4 +1,4 @@
-# Write a Python method to remove all occurrences of a particular character. using python
+# Write a Python method to remove all occurrences of a particular character
 
 def remove_character(text: str, ch: str) -> str:
     if text == "":

@@ -1,4 +1,4 @@
-# Write a Python program to count length of the list
+# Write a Python program to find length of the list
 
 def get_length(nums: list[int]) -> int:
     if not nums:

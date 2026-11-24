@@ -1,3 +1,5 @@
+# A list contains numbers from 1 to N, but one number is missing. Find it using recursion.
+
 def find_sum(arr: list[int], index: int = 0) -> int:
     if index == len(arr):
         return 0
